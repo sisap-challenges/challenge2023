@@ -7,8 +7,7 @@ labels: Others
 body:
   - type: markdown
     attributes:
-      value: |
-        Please describe the issue and how it presented to you.
+      value: Please describe the issue and how can be reproduced.
 
   - type: input
     attributes:

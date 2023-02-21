@@ -15,7 +15,7 @@ body:
       description: Enter the name of your team
     validations:
       required: true
-      
+
   - type: input
     attributes:
       label: task
