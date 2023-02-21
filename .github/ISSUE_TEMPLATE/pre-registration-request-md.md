@@ -1,7 +1,7 @@
 ---
-name: Pre-registration-request.md
+name: Pre-registration request
 about: Declares interest in participation in some of the Tasks of the SISAP23 challenge.
-title: pre-registration info
+title: Pre-registration
 labels: Pre-registration request
 assignees: ''
 
