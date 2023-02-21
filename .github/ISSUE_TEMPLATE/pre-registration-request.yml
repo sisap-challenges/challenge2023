@@ -57,7 +57,7 @@ body:
       are you willing to open source your solution
     options:
     - label: Yes
-      required: false
+      required: true
 
 - type: markdown
   attributes:
