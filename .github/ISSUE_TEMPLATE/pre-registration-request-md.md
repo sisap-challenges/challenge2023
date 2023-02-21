@@ -5,8 +5,6 @@ title: pre-registration info
 labels: Pre-registration request
 assignees: ''
 
----
-
 body:
 - type: markdown
   attributes:
