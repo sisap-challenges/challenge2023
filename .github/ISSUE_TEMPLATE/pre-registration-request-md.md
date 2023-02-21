@@ -13,11 +13,6 @@ body:
     value: |
       **State the tasks of interest, listed in the [challenge site](https://sisap-challenges.github.io/tasks/)**
 
-      **Do you have a repository?**
-      If you already have a repository, please list it. Later in the challenge, we will ask for repositories anyway.
-
-
-
 - type: input
   attributes:
     label: team
