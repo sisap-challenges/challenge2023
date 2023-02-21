@@ -5,12 +5,6 @@ title: Pre-registration
 labels: Pre-registration request
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Expression of interest
-         - Task lists in the [challenge site](https://sisap-challenges.github.io/tasks/)
-
   - type: input
     attributes:
       label: team
