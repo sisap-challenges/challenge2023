@@ -55,7 +55,7 @@ body:
   attributes:
     label: open source
     description: |
-      are you willing to open source your solution?
+      are you willing to open source your solution
     options:
     - label: Yes
       required: false
@@ -64,4 +64,5 @@ body:
   attributes:
     value: |
       You can follow this repository to be informed of any changes and news
+
 ...
