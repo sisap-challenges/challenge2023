@@ -1,3 +1,4 @@
+---
 name: Others
 about: Generic issues
 title: Others
@@ -29,3 +30,5 @@ body:
       Your issue
   validations:
     required: true
+
+---
