@@ -68,4 +68,4 @@ body:
       - label: Yes
         required: yes
 
-  ...
+---
