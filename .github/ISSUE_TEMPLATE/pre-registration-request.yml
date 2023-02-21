@@ -53,10 +53,10 @@ body:
 
 - type: checkboxes
   attributes:
-    label: ask for repo followers
-    description: It is recommended to follow this repository to be informed of any changes and news.
+    label: opensource
+    description: "Are you willing to open source your solution?"
     options:
     - label: Yes
-      required: yes
+      required: false
 
 ...
