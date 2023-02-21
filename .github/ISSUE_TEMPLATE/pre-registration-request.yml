@@ -50,21 +50,5 @@ body:
       - One member per line, affiliations
   validations:
     required: true
-    
-- type: checkboxes
-  attributes:
-    label: opensource
-    description: Are you willing to open source your solution?
-    options:
-    - label: Yes
-      required: false
-
-- type: checkboxes
-  attributes:
-    label: ask for repo followers
-    description: It is recommended to follow this repository to be informed of any changes and news.
-    options:
-    - label: Yes
-      required: yes
 
 ...
