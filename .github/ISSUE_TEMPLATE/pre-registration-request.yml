@@ -50,15 +50,16 @@ body:
   validations:
     required: true
 
+#=
 - type: checkboxes
   attributes:
     label: open source
     description: |
-      are you willing to open source your solution
+      are you willing to open source your solution?
     options:
     - label: Yes
       required: true
-
+=#
 - type: markdown
   attributes:
     value: |
