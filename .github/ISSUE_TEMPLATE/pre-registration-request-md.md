@@ -2,7 +2,7 @@
 name: Pre-registration request
 description: Initiate an account recovery due to lost 2FA or inability to access email address
 title: Pre-registration request
-labels: pre-registration request
+labels: Pre-registration request
 
 body:
 - type: markdown
