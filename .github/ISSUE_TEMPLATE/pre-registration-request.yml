@@ -62,5 +62,12 @@ body:
     - label: I agree to follow the PSF Code of Conduct
       required: true
 
+- type: checkboxes
+  attributes:
+    label: ask for repo followers
+    description: It is recommended to follow this repository to be informed of any changes and news.
+    options:
+    - label: Ok
+      required: yes
 
 ...
