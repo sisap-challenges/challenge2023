@@ -27,13 +27,6 @@ body:
 
 - type: input
   attributes:
-    label: email
-    description: Email of the corresponding author
-  validations:
-    required: true
-
-- type: input
-  attributes:
     label: tasks
     description: Enter the list of tasks of your interest
   validations:
