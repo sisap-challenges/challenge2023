@@ -1,6 +1,6 @@
 ---
 name: Questions
-about: Do you have a question about the indexing challenge or datasets? please ask here.
+description: Do you have a question about the indexing challenge or datasets? please ask here.
 title: Questions
 labels: Questions
 
@@ -26,8 +26,7 @@ body:
 - type: textarea
   attributes:
     label: question
-    description: |
-      Your question
+    description: Your question
   validations:
     required: true
 
