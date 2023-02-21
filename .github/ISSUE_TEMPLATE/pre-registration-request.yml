@@ -53,10 +53,14 @@ body:
 
 - type: checkboxes
   attributes:
-    label: opensource
-    description: "Are you willing to open source your solution?"
+    label: Code of Conduct
+    description: |
+      Read the [PSF Code of Conduct][CoC] first.
+
+      [CoC]: https://github.com/pypa/.github/blob/main/CODE_OF_CONDUCT.md
     options:
-    - label: Yes
-      required: false
+    - label: I agree to follow the PSF Code of Conduct
+      required: true
+
 
 ...
