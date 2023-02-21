@@ -24,7 +24,14 @@ body:
     description: Enter the GitHub username of your corresponding author
   validations:
     required: true
-    
+
+- type: input
+  attributes:
+    label: email
+    description: Email of the corresponding author
+  validations:
+    required: true
+
 - type: input
   attributes:
     label: tasks
@@ -64,8 +71,16 @@ body:
 
 - type: checkboxes
   attributes:
+    label: open source
+    description: are you willing to open source your solution
+    options:
+    - label: Yes
+      required: yes
+
+- type: checkboxes
+  attributes:
     label: ask for repo followers
-    description: It is recommended to follow this repository to be informed of any changes and news.
+    description: You can follow this repository to be informed of any changes and news.
     options:
     - label: Ok
       required: yes
