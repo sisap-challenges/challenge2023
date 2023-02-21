@@ -1,13 +1,14 @@
 ---
-name: Questions
-about: Do you have a question about the indexing challenge or datasets? please ask here.
-title: Questions
-labels: Questions
+name: Question on datasets
+about: Do you have a question about the dataset, subsets or projections? please ask here.
+title: Question on datasets
+labels: Question on datasets
 
 body:
   - type: markdown
     attributes:
-      value: Do you have a question about the indexing challenge or datasets? please ask here.
+      value: |
+        Do you have a question about the dataset, subsets or projections? please ask here.
 
   - type: input
     attributes:
@@ -15,7 +16,7 @@ body:
       description: Enter the name of your team
     validations:
       required: true
-      
+
   - type: input
     attributes:
       label: task
@@ -31,4 +32,4 @@ body:
     validations:
       required: true
 
----
+...

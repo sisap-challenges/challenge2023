@@ -1,14 +1,13 @@
 ---
-name: Others
-about: Generic issues
-title: Others
-labels: Others
+name: Questions
+about: Do you have a question about the indexing challenge or datasets? please ask here.
+title: Questions
+labels: Questions
 
 body:
   - type: markdown
     attributes:
-      value: |
-        Please describe the issue and how it presented to you.
+      value: Do you have a question about the indexing challenge or datasets? please ask here.
 
   - type: input
     attributes:
@@ -16,7 +15,7 @@ body:
       description: Enter the name of your team
     validations:
       required: true
-
+      
   - type: input
     attributes:
       label: task
@@ -26,10 +25,10 @@ body:
 
   - type: textarea
     attributes:
-      label: issue
+      label: question
       description: |
-        Your issue
+        Your question
     validations:
       required: true
 
----
+...

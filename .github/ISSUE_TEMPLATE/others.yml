@@ -1,14 +1,14 @@
 ---
-name: Question on datasets
-about: Do you have a question about the dataset, subsets or projections? please ask here.
-title: Question on datasets
-labels: Question on datasets
+name: Others
+about: Generic issues
+title: Others
+labels: Others
 
 body:
   - type: markdown
     attributes:
       value: |
-        Do you have a question about the dataset, subsets or projections? please ask here.
+        Please describe the issue and how it presented to you.
 
   - type: input
     attributes:
@@ -26,10 +26,10 @@ body:
 
   - type: textarea
     attributes:
-      label: question
+      label: issue
       description: |
-        Your question
+        Your issue
     validations:
       required: true
 
----
+...
