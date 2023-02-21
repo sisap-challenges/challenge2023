@@ -37,7 +37,6 @@ body:
     label: subsets and projections
     description: |
       List the LAION subsets and projections that you plan to use
-      - One combination per line,
       - Of course, you can change your mind, but this will help us to know what can be used as a first approach.
   validations:
     required: true      
@@ -51,14 +50,14 @@ body:
   validations:
     required: true
 
-# - type: checkboxes
-#   attributes:
-#     label: open source
-#     description: |
-#       are you willing to open source your solution?
-#     options:
-#     - label: Yes
-#       required: false
+- type: checkboxes
+  attributes:
+    label: open source
+    description: |
+      are you willing to open source your solution
+    options:
+    - label: Yes
+      required: false
 
 - type: markdown
   attributes:
