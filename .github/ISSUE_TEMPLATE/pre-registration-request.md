@@ -1,9 +1,8 @@
 ---
 name: Pre-registration request
-about: Declares interest in participation in some of the Tasks of the SISAP23 challenge.
-title: Pre-registration
+about: Expression of interest in some of the Tasks of the SISAP23 challenge.
+title: Pre-registration request
 labels: Pre-registration request
-assignees: ''
 
 body:
   - type: markdown
@@ -15,24 +14,21 @@ body:
   - type: input
     attributes:
       label: team
-      description: >-
-        Enter the name of your `team` wrapped with single backticks
+      description: Enter the name of your team
     validations:
       required: true
 
   - type: input
     attributes:
       label: corresponding
-      description: >-
-        Enter the username of your `corresponding` author wrapped with single backticks
+      description: Enter the GitHub username of your corresponding author
     validations:
       required: true
       
   - type: input
     attributes:
       label: tasks
-      description: >-
-        Enter the list of tasks of your interest
+      description: Enter the list of tasks of your interest
     validations:
       required: true
 
@@ -58,8 +54,7 @@ body:
   - type: checkboxes
     attributes:
       label: opensource
-      description: |
-        Are you willing to open source your solution?
+      description: Are you willing to open source your solution?
       options:
       - label: Yes
         required: false

@@ -1,0 +1,35 @@
+---
+name: Others
+about: Generic issues
+title: Others
+labels: Others
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the issue and how it presented to you.
+
+  - type: input
+    attributes:
+      label: team
+      description: Enter the name of your team
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: task
+      description: Enter the list of tasks of your interest
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: issue
+      description: |
+        Your issue
+    validations:
+      required: true
+
+  ...

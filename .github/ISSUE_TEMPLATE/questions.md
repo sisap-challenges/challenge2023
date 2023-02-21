@@ -1,0 +1,34 @@
+---
+name: Questions
+about: Do you have a question about the indexing challenge or datasets? please ask here.
+title: Questions
+labels: Questions
+
+body:
+  - type: markdown
+    attributes:
+      value: Do you have a question about the indexing challenge or datasets? please ask here.
+
+  - type: input
+    attributes:
+      label: team
+      description: Enter the name of your team
+    validations:
+      required: true
+      
+  - type: input
+    attributes:
+      label: task
+      description: Enter the list of tasks of your interest
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: question
+      description: |
+        Your question
+    validations:
+      required: true
+
+  ...
