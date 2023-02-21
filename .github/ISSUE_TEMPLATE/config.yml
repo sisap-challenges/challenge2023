@@ -4,7 +4,7 @@ blank_issues_enabled: false  # default is true
 contact_links:
   - name: SISAP challenges
     url: https://sisap-challenges.github.io/
-    about: Please open these under `pypa/warehouse`
+    about: General information about the SISAP challenge, tasks, important dates, datasets, etc. 
   - name: SISAP web site
     url: https://sisap.org
     about: SISAP web site
