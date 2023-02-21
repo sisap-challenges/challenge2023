@@ -26,9 +26,8 @@ body:
 - type: textarea
   attributes:
     label: issue
-    description: |
-      Your issue
+    description: Your issue
   validations:
     required: true
 
----
+...
