@@ -2,6 +2,7 @@
 
 Best running time for a parameter combination exceeding 90% recall.
 
+# TASK A
 
 ## 10 Million
 
@@ -9,10 +10,13 @@ Best running time for a parameter combination exceeding 90% recall.
 | ---  | ---- |-----:|
 HSP | 10M | 0.34
 UTokyo | 10M  |  0.49
+BASELINE-SearchGraph | 10M | 0.61
+BASELINE-FAISSHNSW | 10M | 0.74
 HIOB | 10M  |    35.89
 CRANBERRY  | 10M  |  107.05
+LMI | 10M  |  450.25
 SWANN* | 10M | 512.31
-LMI | 10M  |  582.55
+Bruteforce | 10M | 2415.74
 
 ## 30 Million
 
@@ -20,21 +24,53 @@ LMI | 10M  |  582.55
 | ---  | ---- |-----:|
 HSP | 30M |  0.49
 UTokyo | 30M  |   0.71
+BASELINE-FAISSHNSW | 30M | 0.86
+BASELINE-SearchGraph | 30M | 1.09
 HIOB | 30M  |    89.97
 CRANBERRY  | 30M  |  192.02
 SWANN* | 30M | 1406.07
-LMI | 30M  |  1872.42
+Bruteforce | 30M | 9010.50
 
 ## 100 Million
 
 | Team | Size | Query time (in _seconds_) | 
 | ---  | ---- |-----:|
 HSP | 100M |0.51
+BASELINE-SearchGraph | 100M | 1.67
+BASELINE-FAISSHNSW | 100M | 21.40
 HIOB | 100M  |    247.01
 CRANBERRY  | 100M  |   589.76
 SWANN* | 100M |  4866.21
 UTokyo | 100M  |  OOM
-LMI | 100M  |  DNF     
+
+# Task C
+
+Indexing binary vectors. Bruteforce recall is around 0.24, we show the best performing parameters exceeding recall 0.22.
+
+
+## 10 Million
+
+| Team | Size | Query time (in _seconds_) | 
+| ---  | ---- |-----:|
+BASELINE-SearchGraph | 10M | 0.10
+Bruteforce | 10M | 0.24
+SWANN | 10M |  159.82
+
+## 30 Million
+
+| Team | Size | Query time (in _seconds_) | 
+| ---  | ---- |-----:|
+BASELINE-SearchGraph | 30M | 0.36
+Bruteforce | 30M | 246.95  
+SWANN | 30M |  717.54
+
+## 100 Million
+
+| Team | Size | Query time (in _seconds_) | 
+| ---  | ---- |-----:|
+BASELINE-SearchGraph | 100M | 1.09
+Bruteforce | 100M | 816.93
+SWANN | 100M |  3795.05
 
 # Notes
 
