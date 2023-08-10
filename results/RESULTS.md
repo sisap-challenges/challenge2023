@@ -15,7 +15,6 @@ BASELINE-FAISSHNSW | 10M | 0.74
 HIOB | 10M  |    35.89
 CRANBERRY  | 10M  |  107.05
 LMI | 10M  |  450.25
-SWANN* | 10M | 512.31
 Bruteforce | 10M | 2415.74
 
 ## 30 Million
@@ -28,7 +27,6 @@ BASELINE-FAISSHNSW | 30M | 0.86
 BASELINE-SearchGraph | 30M | 1.09
 HIOB | 30M  |    89.97
 CRANBERRY  | 30M  |  192.02
-SWANN* | 30M | 1406.07
 Bruteforce | 30M | 9010.50
 
 ## 100 Million
@@ -40,7 +38,6 @@ BASELINE-SearchGraph | 100M | 1.67
 BASELINE-FAISSHNSW | 100M | 21.40
 HIOB | 100M  |    247.01
 CRANBERRY  | 100M  |   589.76
-SWANN* | 100M |  4866.21
 UTokyo | 100M  |  OOM
 
 # Task C
