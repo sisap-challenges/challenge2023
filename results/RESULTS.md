@@ -43,6 +43,35 @@ CRANBERRY  | 100M  |   589.76
 SWANN* | 100M |  4866.21
 UTokyo | 100M  |  OOM
 
+
+# Task B
+
+## 10 Million
+
+| Team | #bits | Recall 
+| --- | --- | ---:|
+| HIOB | 1024 | 0.55
+| HIOB | 256 | 0.33
+| Baseline | 1024 | 0.24
+
+## 30 Million
+
+| Team | #bits | Recall 
+| --- | --- | ---:|
+| HIOB | 1024 | 0.57
+| HIOB | 256 | 0.24
+| Baseline | 1024 | 0.24
+
+## 100 Million
+
+| Team | #bits | Recall 
+| --- | --- | ---:|
+| HIOB | 1024 | 0.58
+| Baseline | 1024 | 0.25
+| HIOB | 256 | 0.20
+
+
+
 # Task C
 
 Indexing binary vectors. Bruteforce recall is around 0.24, we show the best performing parameters exceeding recall 0.22.
@@ -71,7 +100,3 @@ SWANN | 30M |  717.54
 BASELINE-SearchGraph | 100M | 1.09
 Bruteforce | 100M | 816.93
 SWANN | 100M |  3795.05
-
-# Notes
-
-- SWANN* works on the binary hamming embedding instead of the clip768 embedding
