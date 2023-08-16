@@ -734,6 +734,18 @@ clip768v2,10M,NSG32,2314.2052524089813,0.6867787837982178,"query=(search_L=41,ep
 clip768v2,10M,NSG32,2314.2052524089813,0.49388599395751953,"query=(search_L=42,ep=original,threads=32)",0.91407
 clip768v2,10M,NSG32,2314.2052524089813,0.6343626976013184,"query=(search_L=59,ep=original,threads=16)",0.93477
 clip768v2,10M,NSG32,2314.2052524089813,0.7621471881866455,"query=(search_L=68,ep=kmeans,threads=16)",0.94203
+hamming-hiob,30M,bruteforce task B - name,0.0,177.901198116,"StochasticHIOB(n_bits=[1024],n_its=300000,n_samples=10000,batch_its=1024,noise_std=0.07)-index_params=(scale%=10,its_per_sample=1024),query_params=(nprobe=[60])",0.57314
+hamming-hiob,30M,bruteforce task B - name,0.0,49.254156648,"StochasticHIOB(n_bits=[192],n_its=300000,n_samples=10000,batch_its=1024,noise_std=0.07)-index_params=(scale%=10,its_per_sample=1024),query_params=(nprobe=[6000])",0.23934
+hamming-hiob,30M,bruteforce task B - name,0.0,48.958850296,"StochasticHIOB(n_bits=[192],n_its=300000,n_samples=10000,batch_its=1024,noise_std=0.07)-index_params=(scale%=10,its_per_sample=1024),query_params=(nprobe=[5000])",0.23934
+hamming-hiob,30M,bruteforce task B - name,0.0,178.666851242,"StochasticHIOB(n_bits=[1024],n_its=300000,n_samples=10000,batch_its=1024,noise_std=0.07)-index_params=(scale%=10,its_per_sample=1024),query_params=(nprobe=[70])",0.57314
+hamming-hiob,100M,bruteforce task B - name,0.0,140.244467082,"StochasticHIOB(n_bits=[128],n_its=300000,n_samples=10000,batch_its=1024,noise_std=0.05)-index_params=(scale%=10,its_per_sample=1024),query_params=(nprobe=[45000])",0.1991
+hamming-hiob,100M,bruteforce task B - name,0.0,766.851215983,"StochasticHIOB(n_bits=[1024],n_its=300000,n_samples=10000,batch_its=1024,noise_std=0.05)-index_params=(scale%=10,its_per_sample=1024),query_params=(nprobe=[70])",0.57814
+hamming-hiob,100M,bruteforce task B - name,0.0,726.673692875,"StochasticHIOB(n_bits=[1024],n_its=300000,n_samples=10000,batch_its=1024,noise_std=0.05)-index_params=(scale%=10,its_per_sample=1024),query_params=(nprobe=[80])",0.57814
+hamming-hiob,100M,bruteforce task B - name,0.0,144.845864296,"StochasticHIOB(n_bits=[128],n_its=300000,n_samples=10000,batch_its=1024,noise_std=0.05)-index_params=(scale%=10,its_per_sample=1024),query_params=(nprobe=[60000])",0.1991
+hamming-hiob,10M,bruteforce task B - name,0.0,76.663802287,"StochasticHIOB(n_bits=[1024],n_its=300000,n_samples=10000,batch_its=1024,noise_std=0.09)-index_params=(scale%=10,its_per_sample=1024),query_params=(nprobe=[50])",0.5533
+hamming-hiob,10M,bruteforce task B - name,0.0,59.695477515,"StochasticHIOB(n_bits=[1024],n_its=300000,n_samples=10000,batch_its=1024,noise_std=0.09)-index_params=(scale%=10,its_per_sample=1024),query_params=(nprobe=[60])",0.5533
+hamming-hiob,10M,bruteforce task B - name,0.0,19.311199293,"StochasticHIOB(n_bits=[256],n_its=300000,n_samples=10000,batch_its=1024,noise_std=0.09)-index_params=(scale%=10,its_per_sample=1024),query_params=(nprobe=[1250])",0.33101
+hamming-hiob,10M,bruteforce task B - name,0.0,19.358769514,"StochasticHIOB(n_bits=[256],n_its=300000,n_samples=10000,batch_its=1024,noise_std=0.09)-index_params=(scale%=10,its_per_sample=1024),query_params=(nprobe=[1500])",0.33101
 clip768v2,30M,SearchGraph,3161.069211047,0.937829724,r=0.9 b=1.5 Δ=1.05,0.87713
 clip768v2,30M,SearchGraph,3161.069211047,4.199655862,r=0.9 b=1.5 Δ=1.34,0.96524
 clip768v2,30M,SearchGraph,3161.069211047,13.156543794,r=0.9 b=1.5 Δ=1.98,0.97365
@@ -756,6 +768,7 @@ clip768v2,100M,SearchGraph,21275.904104456,3.770387675,r=0.9 b=1.5 Δ=1.6,0.9587
 clip768v2,100M,SearchGraph,21275.904104456,1.551970107,r=0.9 b=1.5 Δ=1.03,0.87172
 clip768v2,100M,SearchGraph,21275.904104456,2.178163378,r=0.9 b=1.5 Δ=1.2,0.94523
 clip768v2,100M,SearchGraph,21275.904104456,1.480199801,r=0.9 b=1.5 Δ=0.98,0.8042
+clip768v2,100M,bruteforce,0.0,27165.68793178,none,0.99999
 clip768v2,100M,SearchGraph,21275.904104456,3.154849269,r=0.9 b=1.5 Δ=1.38,0.95686
 clip768v2,100M,SearchGraph,21275.904104456,1.669529159,r=0.9 b=1.5 Δ=1.08,0.91119
 clip768v2,100M,SearchGraph,21275.904104456,2.880471137,r=0.9 b=1.5 Δ=1.32,0.95516
@@ -1057,3 +1070,6 @@ clip768v2,100M,"StochasticHIOB(n_bits=[128],n_its=300000,n_samples=10000,batch_i
 clip768v2,100M,"StochasticHIOB(n_bits=[128],n_its=300000,n_samples=10000,batch_its=1024,noise_std=0.05) + brute-force",764.397106851,256.138786206,"index_params=(scale%=10,its_per_sample=1024),query_params=(nprobe=[60000])",0.94919
 clip768v2,10M,"StochasticHIOB(n_bits=[256],n_its=300000,n_samples=10000,batch_its=1024,noise_std=0.09) + brute-force",415.372272281,35.886606778,"index_params=(scale%=10,its_per_sample=1024),query_params=(nprobe=[1250])",0.92968
 clip768v2,10M,"StochasticHIOB(n_bits=[256],n_its=300000,n_samples=10000,batch_its=1024,noise_std=0.09) + brute-force",415.372272281,36.525694642,"index_params=(scale%=10,its_per_sample=1024),query_params=(nprobe=[1500])",0.93704
+clip768v2,30M,"StochasticHIOB(n_bits=[192],n_its=300000,n_samples=10000,batch_its=1024,noise_std=0.07) + brute-force",498.594183732,90.348655502,"index_params=(scale%=10,its_per_sample=1024),query_params=(nprobe=[10])",0.27141
+clip768v2,100M,"StochasticHIOB(n_bits=[128],n_its=300000,n_samples=10000,batch_its=1024,noise_std=0.05) + brute-force",710.420800562,242.12530686,"index_params=(scale%=10,its_per_sample=1024),query_params=(nprobe=[10])",0.17215
+clip768v2,10M,"StochasticHIOB(n_bits=[256],n_its=300000,n_samples=10000,batch_its=1024,noise_std=0.09) + brute-force",414.253776948,36.559499748,"index_params=(scale%=10,its_per_sample=1024),query_params=(nprobe=[10])",0.2965
