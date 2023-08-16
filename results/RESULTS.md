@@ -79,8 +79,8 @@ Indexing binary vectors. Bruteforce recall is around 0.24, we show the best perf
 | Team | Size | Query time (in _seconds_) | 
 | ---  | ---- |-----:|
 BASELINE-SearchGraph | 10M | 0.10
-Bruteforce | 10M | 0.24
 HIOB | 10M | 36.56
+Bruteforce | 10M | 74.51
 SWANN | 10M |  159.82
 
 ## 30 Million
