@@ -56,7 +56,7 @@ UTokyo | 100M  |  OOM
 | Team | #bits | Recall 
 | --- | --- | ---:|
 | HIOB | 1024 | 0.57
-| HIOB | 256 | 0.24
+| HIOB | 192 | 0.24
 | Baseline | 1024 | 0.24
 
 ## 100 Million
@@ -65,7 +65,7 @@ UTokyo | 100M  |  OOM
 | --- | --- | ---:|
 | HIOB | 1024 | 0.58
 | Baseline | 1024 | 0.25
-| HIOB | 256 | 0.20
+| HIOB | 128 | 0.20
 
 
 
